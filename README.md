@@ -2,6 +2,8 @@
 
 A Python implementation of 3D path planning for Unmanned Aerial Vehicles (UAVs) using the Grey Wolf Optimizer (GWO) algorithm. This project provides robust path optimization with obstacle avoidance capabilities and stunning 3D visualizations of the optimization process.
 
+![Path Planning Animation](path_animation.gif)
+
 ## Features
 
 - **Intelligent Path Planning**: Implements Grey Wolf Optimizer for finding optimal UAV paths
@@ -30,32 +32,19 @@ A Python implementation of 3D path planning for Unmanned Aerial Vehicles (UAVs) 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/gwo-path-planner.git
+git clone https://github.com/ChenDavidTimothy/gwo-path-planner.git
 cd gwo-path-planner
 ```
 
-2. Create and activate a virtual environment (recommended):
+2. Install the required Python packages:
 ```bash
-# Windows
-python -m venv venv
-venv\Scripts\activate
+pip install numpy matplotlib tqdm
 ```
 
-3. Install required packages:
-```bash
-pip install -r requirements.txt
-```
-
-4. Install FFmpeg:
+3. Install FFmpeg (required for animation export):
 ```bash
 # Windows (using chocolatey)
 choco install ffmpeg
-
-# Linux
-sudo apt-get install ffmpeg
-
-# MacOS
-brew install ffmpeg
 ```
 
 ## Project Structure
@@ -76,9 +65,7 @@ brew install ffmpeg
 │       ├── config.py        # Visualization settings
 │       └── utils.py         # Visualization utilities
 │
-├── main.py                  # Main execution file
-├── requirements.txt         # Project dependencies
-└── README.md               # Project documentation
+└── main.py                  # Main execution file
 ```
 
 ## Usage
@@ -136,7 +123,6 @@ The 3D visualization includes:
 - Real-time fitness tracking
 - Smooth camera rotation
 - Progress indicators
-
 
 ## License
 
