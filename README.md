@@ -8,10 +8,10 @@ A Python implementation of 3D path planning for Unmanned Aerial Vehicles (UAVs) 
 
 - **Intelligent Path Planning**: Implements Grey Wolf Optimizer for finding optimal UAV paths
 - **3D Collision Avoidance**: Handles multiple cylindrical no-fly zones in 3D space
-- **Real-time Visualization**: 
+- **Visualization**: 
   - Dynamic 3D visualization of the optimization process
   - Color-coded path quality indicators
-  - Interactive camera rotation
+  - Camera rotation
   - Progress tracking with fitness metrics
 - **Customizable Parameters**:
   - Adjustable UAV constraints
