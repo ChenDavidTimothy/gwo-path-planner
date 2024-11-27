@@ -4,6 +4,8 @@ A Python implementation of 3D path planning for Unmanned Aerial Vehicles (UAVs) 
 
 ![Path Planning Animation](path_animation.gif)
 
+This repository is heavily inspired by https://github.com/zhaohaojie1998/Grey-Wolf-Optimizer-for-Path-Planning/tree/master
+
 ## Features
 
 - **Intelligent Path Planning**: Implements Grey Wolf Optimizer for finding optimal UAV paths
