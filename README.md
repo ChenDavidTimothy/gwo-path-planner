@@ -128,11 +128,23 @@ The 3D visualization includes:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+## References
 
-- Grey Wolf Optimizer algorithm by Seyedali Mirjalili
-- Matplotlib for 3D visualization capabilities
-- FFmpeg for animation export
+The Grey Wolf Optimization algorithm is adapted from the following paper
+
+```bibtex
+@article{MIRJALILI201446,
+title = {Grey Wolf Optimizer},
+journal = {Advances in Engineering Software},
+volume = {69},
+pages = {46-61},
+year = {2014},
+issn = {0965-9978},
+doi = {https://doi.org/10.1016/j.advengsoft.2013.12.007},
+url = {https://www.sciencedirect.com/science/article/pii/S0965997813001853},
+author = {Seyedali Mirjalili and Seyed Mohammad Mirjalili and Andrew Lewis}
+}
+```
 
 ## Author
 
